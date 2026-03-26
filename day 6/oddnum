@@ -1,0 +1,8 @@
+def count_digits(arr):
+    count = 0
+    for num in arr:
+        if num%2== 1:
+            count += 1
+    return count
+arr = [1,2,3,4,5]
+print("count odd_num ", count_digits(arr))

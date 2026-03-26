@@ -1,0 +1,10 @@
+expenses=[]
+def add_expenses():
+    name=int(input("enter expense name: "))
+    amount=input("enter amount expenses: ")
+    expenses={
+        ""name": name,
+        "amount": amount
+    }
+    expenses.append(expenses)
+    print()
