@@ -1,0 +1,15 @@
+def student_grade(marks):
+    if marks >=90:
+        print("o")
+    elif marks >= 80:
+        print("a+")
+    elif marks >= 70:
+        print("a")
+    elif marks >= 60:
+        print("b+")
+    elif marks >= 50:
+        print("b")
+    else:
+        print("fail")
+marks = int(input("emnetr marks: "))
+student_grade(marks)

@@ -1,0 +1,10 @@
+def choose_max(a,b):
+    if a > b:
+        print("maximum: ", a)
+    else:
+        print("Maximum: ", b)
+def main():
+    a = int(input("enter the number:"))
+    b = int(input("enter the number:"))
+    choose_max(a,b)
+main()
